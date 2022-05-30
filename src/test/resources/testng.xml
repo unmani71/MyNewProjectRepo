@@ -1,0 +1,15 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EmergingServices-TMS" verbose="10" parallel="false"
+	thread-count="1" preserve-order="true">
+	
+	
+	   <test name="New_Test">
+		<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="TestSite.TestSiteLaunch"></class>
+		</classes>
+	</test>  
+	
+	</suite>
